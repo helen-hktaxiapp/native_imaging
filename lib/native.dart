@@ -26,7 +26,7 @@ enum Transform {
 }
 
 class Image {
-  Pointer<NativeType> _inst;
+  late Pointer<NativeType> _inst;
 
   Image();
   Image._(this._inst);
